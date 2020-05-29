@@ -3,35 +3,35 @@ import { v4 } from 'uuid';
 const masterRapperList= [
   {
     id: v4(),
-    name: 'Marlon Craft',
+    rapper: 'Marlon Craft',
     attack: 20,
     defense: 5,
     hp: 100,
   },
   {
     id: v4(),
-    name: 'Andre 3000',
+    rapper: 'Andre 3000',
     attack: 40,
     defense: 15,
     hp: 100,
   },
   {
     id: v4(),
-    name: 'J. Cole',
+    rapper: 'J. Cole',
     attack: 55,
     defense: 45,
     hp: 100,
   },
   {
     id: v4(),
-    name: 'Nas',
+    rapper: 'Nas',
     attack: 60,
     defense: 45,
     hp: 100,
   },
   {
     id: v4(),
-    name: 'Eminem',
+    rapper: 'Eminem',
     attack: 75,
     defense: 75,
     hp: 100,
@@ -39,5 +39,5 @@ const masterRapperList= [
 ];
 
 export function FakeRapperList(){
-    return masterKegList;
+    return masterRapperList;
 }
